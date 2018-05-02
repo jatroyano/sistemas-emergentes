@@ -1,14 +1,12 @@
 # sistemas-emergentes
 
-Notebooks Jupyter con las implementaciones de dos sistemas emergentes simples: el juego de la vida y colonias de hormigas
+Notebooks Jupyter con dos sistemas emergentes simples: el juego de la vida y colonias de hormigas
 
-Notebook de introducción al uso de NLTK para el Procesamiento del Lenguaje Natural. El notebook está organizado en seis secciones, las cinco primeras contienen ejemplos básicos de uso de elementos de NLTK, WordNet y _word embeddings_. La última sección contiene un experimeento simple que hace uso de _word embeddings_ para calcular el grado de similitud entre dos textos textos en español. 
+Ambos ejemplos permiten comprobar las capacidades auto-organizativas de dos conocidos sistemas emergentes:
 
-El contenido del notebook es el siguiente:
+- El juego de la vida: el juego se desarrolla sobre un tablero con cuadrículas (como el del ajedrez) que en teoría se extiende hasta el infinito. Las celdas pueden contener vida, o no. Cada celda tiene 8 celdas vecinas que son las que determinarán, en cada momento, su evolución. A partir de una configuración inicial (denominada semilla) el juego evoluciona de manera determinista siguiendo tres sencillas reglas. Solo con estas reglas, algunas semillas pueden dar lugar a patrones que se repliquen de forma indefinida.
 
-1. Lectura y tokenización
-2. Cálculo de frecuencias y transformaciones básicas
-3. Etiquetado POS
-4. WordNet
-5. Word2vec
-6. Similitud de textos
+- Colonias de hormigas: los algoritmos basados en colonias de hormigas son un tipo de algoritmo de inteligencia de enjambre en el que un grupo de agentes presentan un comportamiento colectivo complejo habitualmente a partir de un comportamiento indiviual simple, y
+una toma de decisiones individuales basada en algún tipo de información compartida. En este notebook se aplicará esta idea a un pequeño juego consistente en conducir las hormigas desde el hormiguero a la comida y viceversa. No se trata de reproducir exactamente el comportamiento de las hormigas reales, sino de mostrar cómo con unas reglas de decisión simples se puede conseguir un objetivo colectivo.
+
+Las implementaciones son sencillas y están diseñadas para que cualquier persona (aunque no tenga conocimientos de programación) pueda experimentar con distintas semillas (configuraciones iniciales tanto para el juego de la vida como para la colonia de hormigas) e incluso crear sus propias semillas.
